@@ -39,55 +39,54 @@ These tables were exported for visualization in Tableau Public.
 # Tableau Public – Dashboard Creation
 The cleaned dataset and SQL summary tables were uploaded to Tableau Public to build an interactive dashboard.
 Dashboard Includes:
-Total Sales KPI
-Sales by Category
-Sales by Region (Map)
-Sales by Customer Segment
-Monthly Sales Trend (Line Chart)
-Top 10 Products
-Shipping Time Analysis
-Custom filters for interactive exploration
+* Total Sales KPI
+* Sales by Category
+* Sales by Region (Map)
+* Sales by Customer Segment
+* Monthly Sales Trend (Line Chart)
+* Top 10 Products
+* Shipping Time Analysis
+* Custom filters for interactive exploration
 
 # Project Architecture
 superstore-sales-analysis/
-│
+
 ├── data/
-│   ├── superstore_sales_dataset.csv
-│   ├── clean_superstore.csv
-│   ├── sales_by_category.csv
-│   ├── sales_by_segment.csv
-│   ├── sales_by_region.csv
-│   ├── monthly_sales.csv
-│   ├── top_10_products.csv
-│   └── shipping_time.csv
-│
+   ├── superstore_sales_dataset.csv
+   ├── clean_superstore.csv
+   ├── sales_by_category.csv
+   ├── sales_by_segment.csv
+   ├── sales_by_region.csv
+   ├── monthly_sales.csv
+   ├── top_10_products.csv
+   └── shipping_time.csv
+
 ├── python/
-│   └── cleaning_and_processing.ipynb
-│
+   └── cleaning_and_processing.ipynb
+
 ├── sql/
-│   └── summary_tables.sql
-│
+   └── summary_tables.sql
+
 ├── tableau/
-│   └── dashboard.twbx   (optional)
-│
+   └── dashboard.twbx(optional)
 └── README.md
 
 # How to Run This Project
 
-# Step 1 — Run Python Script
+Step 1 — Run Python Script
 python clean_superstore.py
 
-# Step 2 — Open SQL Tool (MySQL / SQLite)
+Step 2 — Open SQL Tool (MySQL / SQLite)
 Run the summary_tables.sql script to create all summary tables.
 
-# Step 3 — Upload CSV Files to Tableau Public
-Create a new workbook
-Upload all summary CSV files
-Build worksheets for each metric
-Combine them into a dashboard
+Step 3 — Upload CSV Files to Tableau Public
+* Create a new workbook
+* Upload all summary CSV files
+* Build worksheets for each metric
+* Combine them into a dashboard
 
 # Tech Stack Used
-Python → Pandas, NumPy
-SQL → SQLite / MySQL
-Tableau Public → Dashboard & data storytelling
-GitHub → Project Documentation
+* Python → Pandas, NumPy
+* SQL → SQLite / MySQL
+* Tableau Public → Dashboard & data storytelling
+* GitHub → Project Documentation
