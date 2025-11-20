@@ -51,25 +51,25 @@ Dashboard Includes:
 # Project Architecture
 superstore-sales-analysis/
 
-├── data/
-   ├── superstore_sales_dataset.csv
-   ├── clean_superstore.csv
-   ├── sales_by_category.csv
-   ├── sales_by_segment.csv
-   ├── sales_by_region.csv
-   ├── monthly_sales.csv
-   ├── top_10_products.csv
-   └── shipping_time.csv
+data/
+-superstore_sales_dataset.csv
+-clean_superstore.csv
+-sales_by_category.csv
+-sales_by_segment.csv
+-sales_by_region.csv
+-monthly_sales.csv
+-top_10_products.csv
+-shipping_time.csv
 
-├── python/
-   └── cleaning_and_processing.ipynb
+python/
+-cleaning_and_processing.ipynb
 
-├── sql/
-   └── summary_tables.sql
+sql/
+-summary_tables.sql
 
-├── tableau/
-   └── dashboard.twbx(optional)
-└── README.md
+tableau/
+-dashboard.twbx(optional)
+-README.md
 
 # How to Run This Project
 
